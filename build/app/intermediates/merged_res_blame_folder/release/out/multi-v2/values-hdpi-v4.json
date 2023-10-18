@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.aloit.lenden.app-mergeReleaseResources-43:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/shamsshahrul/.gradle/caches/transforms-3/606b9e887eec0e0264828c10cd7ae091/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

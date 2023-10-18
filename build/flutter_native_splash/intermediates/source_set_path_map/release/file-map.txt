@@ -1,0 +1,12 @@
+net.jonhanson.flutter_native_splash-jetified-window-java-1.0.0-beta04-0 /home/shamsshahrul/.gradle/caches/transforms-3/7f5c0a88e605726915ea36caf9197191/transformed/jetified-window-java-1.0.0-beta04/res
+net.jonhanson.flutter_native_splash-jetified-annotation-experimental-1.1.0-1 /home/shamsshahrul/.gradle/caches/transforms-3/b4a81ab737be1f118c6b7c6f67e915fb/transformed/jetified-annotation-experimental-1.1.0/res
+net.jonhanson.flutter_native_splash-core-1.6.0-2 /home/shamsshahrul/.gradle/caches/transforms-3/bd143bd142702dc39c3f27acadaacb07/transformed/core-1.6.0/res
+net.jonhanson.flutter_native_splash-jetified-window-1.0.0-beta04-3 /home/shamsshahrul/.gradle/caches/transforms-3/dc088083d5a1860f98d6434729706507/transformed/jetified-window-1.0.0-beta04/res
+net.jonhanson.flutter_native_splash-main-4 /home/shamsshahrul/.pub-cache/hosted/pub.dev/flutter_native_splash-2.2.16/android/src/main/res
+net.jonhanson.flutter_native_splash-release-5 /home/shamsshahrul/.pub-cache/hosted/pub.dev/flutter_native_splash-2.2.16/android/src/release/res
+net.jonhanson.flutter_native_splash-pngs-6 /home/shamsshahrul/Downloads/lenden-shams/build/flutter_native_splash/generated/res/pngs/release
+net.jonhanson.flutter_native_splash-resValues-7 /home/shamsshahrul/Downloads/lenden-shams/build/flutter_native_splash/generated/res/resValues/release
+net.jonhanson.flutter_native_splash-rs-8 /home/shamsshahrul/Downloads/lenden-shams/build/flutter_native_splash/generated/res/rs/release
+net.jonhanson.flutter_native_splash-mergeReleaseResources-9 /home/shamsshahrul/Downloads/lenden-shams/build/flutter_native_splash/intermediates/incremental/release/mergeReleaseResources/merged.dir
+net.jonhanson.flutter_native_splash-mergeReleaseResources-10 /home/shamsshahrul/Downloads/lenden-shams/build/flutter_native_splash/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+net.jonhanson.flutter_native_splash-merged_res-11 /home/shamsshahrul/Downloads/lenden-shams/build/flutter_native_splash/intermediates/merged_res/release

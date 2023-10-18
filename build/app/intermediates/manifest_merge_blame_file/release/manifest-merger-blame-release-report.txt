@@ -1,0 +1,903 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aloit.lenden"
+4    android:versionCode="5"
+5    android:versionName="5.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:3:6-68
+11-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:3:23-65
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:4:7-74
+12-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:4:24-71
+13    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+13-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:5:1-69
+13-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:5:18-66
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+15-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+15-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+16-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+17-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-60
+19-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:19-57
+20
+21    <uses-permission android:name="android.permission.FLASHLIGHT" />
+21-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-69
+21-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-66
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+22-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+23-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+24    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+24-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+24-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+25    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+25-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+25-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+26
+27    <queries>
+27-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-22:15
+28        <intent>
+28-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+29            <action android:name="android.accounts.AccountAuthenticator" />
+29-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-76
+29-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-73
+30        </intent>
+31        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+32        <intent>
+32-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-21:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+33-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
+34
+35            <data
+35-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-20:44
+36                android:host="com.android.contacts"
+36-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-52
+37                android:mimeType="vnd.android.cursor.item/*"
+37-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-61
+38                android:scheme="content" />
+38-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-41
+39        </intent>
+40        <!-- For browser content -->
+41        <intent>
+41-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:35:9-41:18
+42            <action android:name="android.intent.action.VIEW" />
+42-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+42-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
+43
+44            <category android:name="android.intent.category.BROWSABLE" />
+44-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+44-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+45
+46            <data android:scheme="https" />
+46-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-20:44
+46-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-41
+47        </intent> <!-- End of browser content -->
+48        <!-- For CustomTabsService -->
+49        <intent>
+49-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:44:9-46:18
+50            <action android:name="android.support.customtabs.action.CustomTabsService" />
+50-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:45:13-90
+50-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:45:21-87
+51        </intent>
+52    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+53    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+53-->[com.google.firebase:firebase-iid:21.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/a49977215660a5b96732097ebf0009dc/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+53-->[com.google.firebase:firebase-iid:21.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/a49977215660a5b96732097ebf0009dc/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+54    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+54-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/bc5280752044237b46aecd3f8d6e1a93/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+54-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/bc5280752044237b46aecd3f8d6e1a93/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+55    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+55-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+55-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+56    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+56-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+56-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+57
+58    <permission
+58-->[androidx.core:core:1.10.1] /home/shamsshahrul/.gradle/caches/transforms-3/92a07c4e44dab88525c155b3d6a6514d/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+59        android:name="com.aloit.lenden.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+59-->[androidx.core:core:1.10.1] /home/shamsshahrul/.gradle/caches/transforms-3/92a07c4e44dab88525c155b3d6a6514d/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+60        android:protectionLevel="signature" />
+60-->[androidx.core:core:1.10.1] /home/shamsshahrul/.gradle/caches/transforms-3/92a07c4e44dab88525c155b3d6a6514d/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+61
+62    <uses-permission android:name="com.aloit.lenden.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+62-->[androidx.core:core:1.10.1] /home/shamsshahrul/.gradle/caches/transforms-3/92a07c4e44dab88525c155b3d6a6514d/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+62-->[androidx.core:core:1.10.1] /home/shamsshahrul/.gradle/caches/transforms-3/92a07c4e44dab88525c155b3d6a6514d/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+63
+64    <application
+65        android:name="android.app.Application"
+65-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:10:9-42
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.10.1] /home/shamsshahrul/.gradle/caches/transforms-3/92a07c4e44dab88525c155b3d6a6514d/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+67        android:icon="@mipmap/app_icon2"
+67-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:11:9-41
+68        android:label="Github-issue"
+68-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:9:9-37
+69        android:largeHeap="true"
+69-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+70        android:theme="@style/Theme.AppCompat.NoActionBar" >
+70-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-59
+71        <activity
+71-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:12:9-34:20
+72            android:name="com.aloit.lenden.MainActivity"
+72-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:13:13-41
+73            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+73-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:19:13-163
+74            android:exported="true"
+74-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:15:13-36
+75            android:hardwareAccelerated="true"
+75-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:20:13-47
+76            android:launchMode="singleTop"
+76-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:17:13-43
+77            android:requestLegacyExternalStorage="true"
+77-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:14:13-56
+78            android:theme="@style/LaunchTheme"
+78-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:18:13-47
+79            android:usesCleartextTraffic="true"
+79-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:16:13-48
+80            android:windowSoftInputMode="adjustResize" >
+80-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:21:13-55
+81
+82            <!--
+83                 Specifies an Android theme to apply to this Activity as soon as
+84                 the Android process has started. This theme is visible to the user
+85                 while the Flutter UI initializes. After that, this theme continuesp
+86                 to determine the Window background behind the Flutter UI.
+87            -->
+88            <meta-data
+88-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:26:13-29:17
+89                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+89-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:27:15-79
+90                android:resource="@drawable/launch_background" />
+90-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:28:15-61
+91
+92            <intent-filter>
+92-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:30:13-33:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:31:17-68
+93-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:31:25-66
+94
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:32:17-76
+95-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:32:27-74
+96            </intent-filter>
+97        </activity>
+98        <!--
+99             Don't delete the meta-data below.
+100             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+101        -->
+102        <meta-data
+102-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:37:9-39:33
+103            android:name="flutterEmbedding"
+103-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:38:13-44
+104            android:value="2" />
+104-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:39:13-30
+105        <meta-data
+105-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:42:14-44:70
+106            android:name="com.google.android.gms.ads.APPLICATION_ID"
+106-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:43:13-69
+107            android:value="ca-app-pub-7851142933150959~5453642936" />
+107-->/home/shamsshahrul/Downloads/lenden-shams/android/app/src/main/AndroidManifest.xml:44:13-67
+108
+109        <service
+109-->[:firebase_auth] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+110            android:name="com.google.firebase.components.ComponentDiscoveryService"
+110-->[:firebase_auth] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+111            android:directBootAware="true"
+111-->[com.google.firebase:firebase-common:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/04e26d3d07ef9933c742d92cca4ffe98/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+112            android:exported="false" >
+112-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/483fc56c8373b9869a48a1c1d4b85e92/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:10:13-37
+113            <meta-data
+113-->[:firebase_auth] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+114-->[:firebase_auth] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_auth] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+116            <meta-data
+116-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+117                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+117-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+119            <meta-data
+119-->[:firebase_core] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+120                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+120-->[:firebase_core] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[:firebase_core] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/483fc56c8373b9869a48a1c1d4b85e92/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:11:13-13:85
+123                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+123-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/483fc56c8373b9869a48a1c1d4b85e92/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:12:17-126
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/483fc56c8373b9869a48a1c1d4b85e92/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:13:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-auth-ktx:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/d0ab22e40c4d20a7ddbf354057ef3435/transformed/jetified-firebase-auth-ktx-22.1.0/AndroidManifest.xml:11:13-13:85
+126                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+126-->[com.google.firebase:firebase-auth-ktx:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/d0ab22e40c4d20a7ddbf354057ef3435/transformed/jetified-firebase-auth-ktx-22.1.0/AndroidManifest.xml:12:17-116
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-auth-ktx:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/d0ab22e40c4d20a7ddbf354057ef3435/transformed/jetified-firebase-auth-ktx-22.1.0/AndroidManifest.xml:13:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-common-ktx:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/24a82ff9cea35a7441cbb847e9c9ac2f/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:14:13-16:85
+129                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+129-->[com.google.firebase:firebase-common-ktx:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/24a82ff9cea35a7441cbb847e9c9ac2f/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:15:17-113
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-common-ktx:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/24a82ff9cea35a7441cbb847e9c9ac2f/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:16:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+132                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+132-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-iid:21.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/a49977215660a5b96732097ebf0009dc/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+135-->[com.google.firebase:firebase-iid:21.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/a49977215660a5b96732097ebf0009dc/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-iid:21.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/a49977215660a5b96732097ebf0009dc/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+138                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+138-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+140            <meta-data
+140-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/bc5280752044237b46aecd3f8d6e1a93/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+141                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+141-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/bc5280752044237b46aecd3f8d6e1a93/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/bc5280752044237b46aecd3f8d6e1a93/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-installations:17.1.3] /home/shamsshahrul/.gradle/caches/transforms-3/0a9d2b1af41056aa699e10ab3f1e9b4e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+144                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+144-->[com.google.firebase:firebase-installations:17.1.3] /home/shamsshahrul/.gradle/caches/transforms-3/0a9d2b1af41056aa699e10ab3f1e9b4e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-installations:17.1.3] /home/shamsshahrul/.gradle/caches/transforms-3/0a9d2b1af41056aa699e10ab3f1e9b4e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-datatransport:18.1.7] /home/shamsshahrul/.gradle/caches/transforms-3/ea7f80f26fa5a2337c55e3eaf577a2fd/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+147                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+147-->[com.google.firebase:firebase-datatransport:18.1.7] /home/shamsshahrul/.gradle/caches/transforms-3/ea7f80f26fa5a2337c55e3eaf577a2fd/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-datatransport:18.1.7] /home/shamsshahrul/.gradle/caches/transforms-3/ea7f80f26fa5a2337c55e3eaf577a2fd/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+149        </service>
+150        <service
+150-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+151            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+151-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+152            android:exported="false"
+152-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+153            android:permission="android.permission.BIND_JOB_SERVICE" />
+153-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+154        <service
+154-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+155            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+155-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+156            android:exported="false" >
+156-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+157            <intent-filter>
+157-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+158                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+158-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+158-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+159            </intent-filter>
+160        </service>
+161
+162        <receiver
+162-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+163            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+163-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+164            android:exported="true"
+164-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+165            android:permission="com.google.android.c2dm.permission.SEND" >
+165-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+166            <intent-filter>
+166-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+167                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+167-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+167-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+168            </intent-filter>
+169        </receiver>
+170
+171        <provider
+171-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+172            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+172-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+173            android:authorities="com.aloit.lenden.flutterfirebasemessaginginitprovider"
+173-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+174            android:exported="false"
+174-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+175            android:initOrder="99" />
+175-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+176
+177        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+177-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-91
+177-->[:flutter_barcode_scanner] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:19-88
+178
+179        <provider
+179-->[:image_picker_android] /home/shamsshahrul/Downloads/lenden-shams/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+180            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+180-->[:image_picker_android] /home/shamsshahrul/Downloads/lenden-shams/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+181            android:authorities="com.aloit.lenden.flutter.image_provider"
+181-->[:image_picker_android] /home/shamsshahrul/Downloads/lenden-shams/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+182            android:exported="false"
+182-->[:image_picker_android] /home/shamsshahrul/Downloads/lenden-shams/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+183            android:grantUriPermissions="true" >
+183-->[:image_picker_android] /home/shamsshahrul/Downloads/lenden-shams/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+184            <meta-data
+184-->[:image_picker_android] /home/shamsshahrul/Downloads/lenden-shams/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+185                android:name="android.support.FILE_PROVIDER_PATHS"
+185-->[:image_picker_android] /home/shamsshahrul/Downloads/lenden-shams/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+186                android:resource="@xml/flutter_image_picker_file_paths" />
+186-->[:image_picker_android] /home/shamsshahrul/Downloads/lenden-shams/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+187        </provider>
+188
+189        <receiver
+189-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+190            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+190-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+191            android:exported="false" />
+191-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+192        <receiver
+192-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+193            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+193-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+194            android:exported="false" />
+194-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+195        <receiver
+195-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+196            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+196-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+197            android:exported="false" >
+197-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+198            <intent-filter>
+198-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+199                <action android:name="android.intent.action.BOOT_COMPLETED" />
+199-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+199-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+200                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+200-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+200-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+201                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+201-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+201-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+202                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+202-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+202-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+203            </intent-filter>
+204        </receiver>
+205
+206        <activity
+206-->[:url_launcher_android] /home/shamsshahrul/Downloads/lenden-shams/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+207            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+207-->[:url_launcher_android] /home/shamsshahrul/Downloads/lenden-shams/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+208            android:exported="false"
+208-->[:url_launcher_android] /home/shamsshahrul/Downloads/lenden-shams/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+209            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+209-->[:url_launcher_android] /home/shamsshahrul/Downloads/lenden-shams/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+210
+211        <meta-data
+211-->[:google_mobile_ads] /home/shamsshahrul/Downloads/lenden-shams/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:36
+212            android:name="io.flutter.embedded_views_preview"
+212-->[:google_mobile_ads] /home/shamsshahrul/Downloads/lenden-shams/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-61
+213            android:value="true" />
+213-->[:google_mobile_ads] /home/shamsshahrul/Downloads/lenden-shams/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-33
+214
+215        <activity
+215-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+216            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+216-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+217            android:excludeFromRecents="true"
+217-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+218            android:exported="true"
+218-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+219            android:launchMode="singleTask"
+219-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+220-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+221            <intent-filter>
+221-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+222                <action android:name="android.intent.action.VIEW" />
+222-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+222-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
+223
+224                <category android:name="android.intent.category.DEFAULT" />
+224-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+224-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+225                <category android:name="android.intent.category.BROWSABLE" />
+225-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+225-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+226
+227                <data
+227-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-20:44
+228                    android:host="firebase.auth"
+228-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-52
+229                    android:path="/"
+230                    android:scheme="genericidp" />
+230-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-41
+231            </intent-filter>
+232        </activity>
+233        <activity
+233-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+234            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+234-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+235            android:excludeFromRecents="true"
+235-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+236            android:exported="true"
+236-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+237            android:launchMode="singleTask"
+237-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+238-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+239            <intent-filter>
+239-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+240                <action android:name="android.intent.action.VIEW" />
+240-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+240-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
+241
+242                <category android:name="android.intent.category.DEFAULT" />
+242-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+242-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+243                <category android:name="android.intent.category.BROWSABLE" />
+243-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+243-->[com.google.firebase:firebase-auth:22.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/bca4f0c2c4616b2935d85098baac81c0/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+244
+245                <data
+245-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-20:44
+246                    android:host="firebase.auth"
+246-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-52
+247                    android:path="/"
+248                    android:scheme="recaptcha" />
+248-->[:contacts_service] /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-41
+249            </intent-filter>
+250        </activity>
+251
+252        <receiver
+252-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+253            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+253-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+254            android:exported="true"
+254-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+255            android:permission="com.google.android.c2dm.permission.SEND" >
+255-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+256            <intent-filter>
+256-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+257                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+257-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+257-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+258            </intent-filter>
+259        </receiver>
+260        <!--
+261             FirebaseMessagingService performs security checks at runtime,
+262             but set to not exported to explicitly avoid allowing another app to call it.
+263        -->
+264        <service
+264-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
+265            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+265-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
+266            android:directBootAware="true"
+266-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+267            android:exported="false" >
+267-->[com.google.firebase:firebase-messaging:23.2.0] /home/shamsshahrul/.gradle/caches/transforms-3/f4263e1c6f9ee62848de773ebdd77873/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
+268            <intent-filter android:priority="-500" >
+268-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+269                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+269-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+269-->[:firebase_messaging] /home/shamsshahrul/Downloads/lenden-shams/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+270            </intent-filter>
+271        </service>
+272
+273        <provider
+273-->[com.google.firebase:firebase-common:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/04e26d3d07ef9933c742d92cca4ffe98/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+274            android:name="com.google.firebase.provider.FirebaseInitProvider"
+274-->[com.google.firebase:firebase-common:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/04e26d3d07ef9933c742d92cca4ffe98/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+275            android:authorities="com.aloit.lenden.firebaseinitprovider"
+275-->[com.google.firebase:firebase-common:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/04e26d3d07ef9933c742d92cca4ffe98/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+276            android:directBootAware="true"
+276-->[com.google.firebase:firebase-common:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/04e26d3d07ef9933c742d92cca4ffe98/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+277            android:exported="false"
+277-->[com.google.firebase:firebase-common:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/04e26d3d07ef9933c742d92cca4ffe98/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+278            android:initOrder="100" />
+278-->[com.google.firebase:firebase-common:20.3.3] /home/shamsshahrul/.gradle/caches/transforms-3/04e26d3d07ef9933c742d92cca4ffe98/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+279
+280        <activity
+280-->[com.google.android.gms:play-services-base:18.0.1] /home/shamsshahrul/.gradle/caches/transforms-3/964140187cc3656dddfb3d345c1f1f31/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+281            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+281-->[com.google.android.gms:play-services-base:18.0.1] /home/shamsshahrul/.gradle/caches/transforms-3/964140187cc3656dddfb3d345c1f1f31/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+282            android:exported="false"
+282-->[com.google.android.gms:play-services-base:18.0.1] /home/shamsshahrul/.gradle/caches/transforms-3/964140187cc3656dddfb3d345c1f1f31/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+283            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+283-->[com.google.android.gms:play-services-base:18.0.1] /home/shamsshahrul/.gradle/caches/transforms-3/964140187cc3656dddfb3d345c1f1f31/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+284        <activity
+284-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:53:9-58:43
+285            android:name="com.google.android.gms.ads.AdActivity"
+285-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:54:13-65
+286            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+286-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:55:13-122
+287            android:exported="false"
+287-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:56:13-37
+288            android:theme="@android:style/Theme.Translucent" />
+288-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:57:13-61
+289
+290        <provider
+290-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:60:9-65:43
+291            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+291-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:61:13-76
+292            android:authorities="com.aloit.lenden.mobileadsinitprovider"
+292-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:62:13-73
+293            android:exported="false"
+293-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:63:13-37
+294            android:initOrder="100" />
+294-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:64:13-36
+295
+296        <service
+296-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:67:9-71:43
+297            android:name="com.google.android.gms.ads.AdService"
+297-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:68:13-64
+298            android:enabled="true"
+298-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:69:13-35
+299            android:exported="false" />
+299-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:70:13-37
+300
+301        <activity
+301-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:73:9-77:43
+302            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+302-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:74:13-82
+303            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+303-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:75:13-122
+304            android:exported="false" />
+304-->[com.google.android.gms:play-services-ads-lite:22.0.0] /home/shamsshahrul/.gradle/caches/transforms-3/de0f4bcaf53c7bd597585ba84ba6d471/transformed/jetified-play-services-ads-lite-22.0.0/AndroidManifest.xml:76:13-37
+305
+306        <receiver
+306-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+307            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+307-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+308            android:enabled="true"
+308-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+309            android:exported="false" >
+309-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+310        </receiver>
+311
+312        <service
+312-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+313            android:name="com.google.android.gms.measurement.AppMeasurementService"
+313-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+314            android:enabled="true"
+314-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+315            android:exported="false" />
+315-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+316        <service
+316-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+317            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+317-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+318            android:enabled="true"
+318-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+319            android:exported="false"
+319-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+320            android:permission="android.permission.BIND_JOB_SERVICE" />
+320-->[com.google.android.gms:play-services-measurement:21.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/504079b65d4820b98a2c9229a4ea03c6/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+321
+322        <meta-data
+322-->[com.google.android.gms:play-services-basement:18.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/8d525ae2b35248259918d8ddcd30981e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+323            android:name="com.google.android.gms.version"
+323-->[com.google.android.gms:play-services-basement:18.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/8d525ae2b35248259918d8ddcd30981e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+324            android:value="@integer/google_play_services_version" />
+324-->[com.google.android.gms:play-services-basement:18.1.0] /home/shamsshahrul/.gradle/caches/transforms-3/8d525ae2b35248259918d8ddcd30981e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+325
+326        <provider
+326-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+327            android:name="androidx.startup.InitializationProvider"
+327-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+328            android:authorities="com.aloit.lenden.androidx-startup"
+328-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+329            android:exported="false" >
+329-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+330            <meta-data
+330-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+331                android:name="androidx.work.WorkManagerInitializer"
+331-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+332                android:value="androidx.startup" />
+332-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+333            <meta-data
+333-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/shamsshahrul/.gradle/caches/transforms-3/f7f0c85b5cbedc3a208c68be33d850a7/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+334                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+334-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/shamsshahrul/.gradle/caches/transforms-3/f7f0c85b5cbedc3a208c68be33d850a7/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+335                android:value="androidx.startup" />
+335-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/shamsshahrul/.gradle/caches/transforms-3/f7f0c85b5cbedc3a208c68be33d850a7/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+336            <meta-data
+336-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+337                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+337-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+338                android:value="androidx.startup" />
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+339        </provider>
+340
+341        <service
+341-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+342            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+342-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+343            android:directBootAware="false"
+343-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+344            android:enabled="@bool/enable_system_alarm_service_default"
+344-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+345            android:exported="false" />
+345-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+346        <service
+346-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+347            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+347-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+348            android:directBootAware="false"
+348-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+349            android:enabled="@bool/enable_system_job_service_default"
+349-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+350            android:exported="true"
+350-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+351            android:permission="android.permission.BIND_JOB_SERVICE" />
+351-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+352        <service
+352-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+353            android:name="androidx.work.impl.foreground.SystemForegroundService"
+353-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+354            android:directBootAware="false"
+354-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+355            android:enabled="@bool/enable_system_foreground_service_default"
+355-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+356            android:exported="false" />
+356-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+357
+358        <receiver
+358-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+359            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+359-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+360            android:directBootAware="false"
+360-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+361            android:enabled="true"
+361-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+362            android:exported="false" />
+362-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+363        <receiver
+363-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+364            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+364-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+365            android:directBootAware="false"
+365-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+366            android:enabled="false"
+366-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+367            android:exported="false" >
+367-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+368            <intent-filter>
+368-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+369                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+369-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+369-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+370                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+370-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+370-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+371            </intent-filter>
+372        </receiver>
+373        <receiver
+373-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+374            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+374-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+375            android:directBootAware="false"
+375-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+376            android:enabled="false"
+376-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+377            android:exported="false" >
+377-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+378            <intent-filter>
+378-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+379                <action android:name="android.intent.action.BATTERY_OKAY" />
+379-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+379-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+380                <action android:name="android.intent.action.BATTERY_LOW" />
+380-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+380-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+381            </intent-filter>
+382        </receiver>
+383        <receiver
+383-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+384            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+384-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+385            android:directBootAware="false"
+385-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+386            android:enabled="false"
+386-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+387            android:exported="false" >
+387-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+388            <intent-filter>
+388-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+389                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+389-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+389-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+390                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+390-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+390-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+391            </intent-filter>
+392        </receiver>
+393        <receiver
+393-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+394            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+394-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+395            android:directBootAware="false"
+395-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+396            android:enabled="false"
+396-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+397            android:exported="false" >
+397-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+398            <intent-filter>
+398-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+399                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+399-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+399-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+400            </intent-filter>
+401        </receiver>
+402        <receiver
+402-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+403            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+403-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+404            android:directBootAware="false"
+404-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+405            android:enabled="false"
+405-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+406            android:exported="false" >
+406-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+407            <intent-filter>
+407-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+408                <action android:name="android.intent.action.BOOT_COMPLETED" />
+408-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+408-->[:flutter_local_notifications] /home/shamsshahrul/Downloads/lenden-shams/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+409                <action android:name="android.intent.action.TIME_SET" />
+409-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+409-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+410                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+410-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+410-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+411            </intent-filter>
+412        </receiver>
+413        <receiver
+413-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+414            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+414-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+415            android:directBootAware="false"
+415-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+416            android:enabled="@bool/enable_system_alarm_service_default"
+416-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+417            android:exported="false" >
+417-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+418            <intent-filter>
+418-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+419                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+419-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+419-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+420            </intent-filter>
+421        </receiver>
+422        <receiver
+422-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+423            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+423-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+424            android:directBootAware="false"
+424-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+425            android:enabled="true"
+425-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+426            android:exported="true"
+426-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+427            android:permission="android.permission.DUMP" >
+427-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+428            <intent-filter>
+428-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+429                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+429-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+429-->[androidx.work:work-runtime:2.7.1] /home/shamsshahrul/.gradle/caches/transforms-3/38f62cb0ab8aea8e556dab6a3e6783c1/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+430            </intent-filter>
+431        </receiver>
+432
+433        <uses-library
+433-->[androidx.window:window:1.0.0-beta04] /home/shamsshahrul/.gradle/caches/transforms-3/dc088083d5a1860f98d6434729706507/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+434            android:name="androidx.window.extensions"
+434-->[androidx.window:window:1.0.0-beta04] /home/shamsshahrul/.gradle/caches/transforms-3/dc088083d5a1860f98d6434729706507/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+435            android:required="false" />
+435-->[androidx.window:window:1.0.0-beta04] /home/shamsshahrul/.gradle/caches/transforms-3/dc088083d5a1860f98d6434729706507/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+436        <uses-library
+436-->[androidx.window:window:1.0.0-beta04] /home/shamsshahrul/.gradle/caches/transforms-3/dc088083d5a1860f98d6434729706507/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+437            android:name="androidx.window.sidecar"
+437-->[androidx.window:window:1.0.0-beta04] /home/shamsshahrul/.gradle/caches/transforms-3/dc088083d5a1860f98d6434729706507/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+438            android:required="false" />
+438-->[androidx.window:window:1.0.0-beta04] /home/shamsshahrul/.gradle/caches/transforms-3/dc088083d5a1860f98d6434729706507/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+439
+440        <service
+440-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/50469d0e12b8f0afd2b86c643c7ac1a4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+441            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+441-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/50469d0e12b8f0afd2b86c643c7ac1a4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+442            android:exported="false" >
+442-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/50469d0e12b8f0afd2b86c643c7ac1a4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+443            <meta-data
+443-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/50469d0e12b8f0afd2b86c643c7ac1a4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+444                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+444-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/50469d0e12b8f0afd2b86c643c7ac1a4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+445                android:value="cct" />
+445-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/50469d0e12b8f0afd2b86c643c7ac1a4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+446        </service>
+447        <service
+447-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/f1a66ad3a5bb6e3f95800483d03c10f2/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+448            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+448-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/f1a66ad3a5bb6e3f95800483d03c10f2/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+449            android:exported="false"
+449-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/f1a66ad3a5bb6e3f95800483d03c10f2/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+450            android:permission="android.permission.BIND_JOB_SERVICE" >
+450-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/f1a66ad3a5bb6e3f95800483d03c10f2/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+451        </service>
+452
+453        <receiver
+453-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/f1a66ad3a5bb6e3f95800483d03c10f2/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+454            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+454-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/f1a66ad3a5bb6e3f95800483d03c10f2/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+455            android:exported="false" />
+455-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/shamsshahrul/.gradle/caches/transforms-3/f1a66ad3a5bb6e3f95800483d03c10f2/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+456        <receiver
+456-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+457            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+457-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+458            android:directBootAware="false"
+458-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+459            android:enabled="true"
+459-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+460            android:exported="true"
+460-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+461            android:permission="android.permission.DUMP" >
+461-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+462            <intent-filter>
+462-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+463                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+463-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+463-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+464            </intent-filter>
+465            <intent-filter>
+465-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+466                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+466-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+466-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+467            </intent-filter>
+468            <intent-filter>
+468-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+469                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+469-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+469-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+470            </intent-filter>
+471            <intent-filter>
+471-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+472                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+472-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+472-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/shamsshahrul/.gradle/caches/transforms-3/380259fd178be54c7d63bd2d9add61b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+473            </intent-filter>
+474        </receiver>
+475
+476        <service
+476-->[androidx.room:room-runtime:2.2.5] /home/shamsshahrul/.gradle/caches/transforms-3/443fdc721d3d4cbc1bd85fc1022b41dc/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+477            android:name="androidx.room.MultiInstanceInvalidationService"
+477-->[androidx.room:room-runtime:2.2.5] /home/shamsshahrul/.gradle/caches/transforms-3/443fdc721d3d4cbc1bd85fc1022b41dc/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+478            android:directBootAware="true"
+478-->[androidx.room:room-runtime:2.2.5] /home/shamsshahrul/.gradle/caches/transforms-3/443fdc721d3d4cbc1bd85fc1022b41dc/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+479            android:exported="false" />
+479-->[androidx.room:room-runtime:2.2.5] /home/shamsshahrul/.gradle/caches/transforms-3/443fdc721d3d4cbc1bd85fc1022b41dc/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+480    </application>
+481
+482</manifest>

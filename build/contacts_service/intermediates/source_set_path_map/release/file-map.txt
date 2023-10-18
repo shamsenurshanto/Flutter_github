@@ -1,0 +1,12 @@
+flutter.plugins.contactsservice.contactsservice.contacts_service-jetified-window-java-1.0.0-beta04-0 /home/shamsshahrul/.gradle/caches/transforms-3/7f5c0a88e605726915ea36caf9197191/transformed/jetified-window-java-1.0.0-beta04/res
+flutter.plugins.contactsservice.contactsservice.contacts_service-jetified-annotation-experimental-1.1.0-1 /home/shamsshahrul/.gradle/caches/transforms-3/b4a81ab737be1f118c6b7c6f67e915fb/transformed/jetified-annotation-experimental-1.1.0/res
+flutter.plugins.contactsservice.contactsservice.contacts_service-core-1.6.0-2 /home/shamsshahrul/.gradle/caches/transforms-3/bd143bd142702dc39c3f27acadaacb07/transformed/core-1.6.0/res
+flutter.plugins.contactsservice.contactsservice.contacts_service-jetified-window-1.0.0-beta04-3 /home/shamsshahrul/.gradle/caches/transforms-3/dc088083d5a1860f98d6434729706507/transformed/jetified-window-1.0.0-beta04/res
+flutter.plugins.contactsservice.contactsservice.contacts_service-main-4 /home/shamsshahrul/.pub-cache/hosted/pub.dev/contacts_service-0.6.3/android/src/main/res
+flutter.plugins.contactsservice.contactsservice.contacts_service-release-5 /home/shamsshahrul/.pub-cache/hosted/pub.dev/contacts_service-0.6.3/android/src/release/res
+flutter.plugins.contactsservice.contactsservice.contacts_service-pngs-6 /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/generated/res/pngs/release
+flutter.plugins.contactsservice.contactsservice.contacts_service-resValues-7 /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/generated/res/resValues/release
+flutter.plugins.contactsservice.contactsservice.contacts_service-rs-8 /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/generated/res/rs/release
+flutter.plugins.contactsservice.contactsservice.contacts_service-mergeReleaseResources-9 /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/incremental/release/mergeReleaseResources/merged.dir
+flutter.plugins.contactsservice.contactsservice.contacts_service-mergeReleaseResources-10 /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+flutter.plugins.contactsservice.contactsservice.contacts_service-merged_res-11 /home/shamsshahrul/Downloads/lenden-shams/build/contacts_service/intermediates/merged_res/release

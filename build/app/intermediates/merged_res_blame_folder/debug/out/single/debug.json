@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-hdpi_app_icon.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-hdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable-hdpi_ic_stat_account_balance_wallet.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable-hdpi/ic_stat_account_balance_wallet.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-hdpi_app_icon2.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-hdpi/app_icon2.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-mdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xxxhdpi_lenden.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xxxhdpi/lenden.png"
+    },
+    {
+        "merged": "com.aloit.lenden.app-merged_res-45:/mipmap-hdpi_app_icon_2.png.flat",
+        "source": "com.aloit.lenden.app-main-38:/mipmap-hdpi/app_icon_2.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xxxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable-v21_background.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable-v21/background.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable_app_icon.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable/app_icon.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xhdpi_lenden.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xhdpi/lenden.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable-xxhdpi_ic_stat_account_balance_wallet.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable-xxhdpi/ic_stat_account_balance_wallet.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-mdpi_lenden.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-mdpi/lenden.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-hdpi_lenden.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-hdpi/lenden.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable-mdpi_ic_stat_account_balance_wallet.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable-mdpi/ic_stat_account_balance_wallet.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable-v21_launch_background.xml.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable_sun.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable/sun.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable-xhdpi_ic_stat_account_balance_wallet.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable-xhdpi/ic_stat_account_balance_wallet.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/drawable-xxxhdpi_ic_stat_account_balance_wallet.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/drawable-xxxhdpi/ic_stat_account_balance_wallet.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-merged_res-45:/mipmap-xxhdpi_lenden.png.flat",
+        "source": "/home/shamsshahrul/.gradle/daemon/7.5/com.aloit.lenden.app-main-38:/mipmap-xxhdpi/lenden.png"
+    },
+    {
+        "merged": "com.aloit.lenden.app-merged_res-45:/mipmap-hdpi_app_icon2.png.flat",
+        "source": "com.aloit.lenden.app-main-38:/mipmap-hdpi/app_icon2.png"
+    }
+]

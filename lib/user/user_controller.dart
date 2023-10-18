@@ -102,7 +102,7 @@ class userdata extends GetxController {
     }
   }
 
-  //label; fetching list
+  //label; fetching list from per page
 
   Future<void> fetch_github_label(var page) async {
     // var page =1;

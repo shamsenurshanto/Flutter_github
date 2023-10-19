@@ -28,13 +28,21 @@ class userdata extends GetxController {
 // adding the issues lis
 
   Future<void> fetch_github(var page) async {
+    print("jshdjshds");
     if (listLastItemLoadingChecker.value == 1) listLastItemLoadingChecker(0);
     listLastItemLoadingCheckerMove(0);
     print("ddd");
     if (isloading.value == 0) {
       isloading.value = 1;
     }
-    List<DataListFromGitIssues> userdata = await api_service().fetchDataGithubIssues(page);
+     List<DataListFromGitIssues> userdata=[];
+    try{
+ userdata= await api_service().fetchDataGithubIssues(page);
+    }
+    catch(e){
+      print("error "+e.toString());
+    }
+   
 
     print("page and backedup " + page.toString() + " " + userList_backup.toString());
     userList += userdata;
@@ -76,8 +84,8 @@ class userdata extends GetxController {
           String filter = userListforGitLabelAdded[j];
           print("filrer " + filter);
 
-          for (int i = 0; i < userList[index].labels.length; i++) {
-            label = userList[index].labels[i].name.toString();
+          for (int i = 0; i < userList[index].labels!.length; i++) {
+            label = userList[index].labels![i].name.toString();
             print("index - label " + index.toString() + " " + label.toString());
             if (label.toLowerCase().contains(filter.toLowerCase())) {
               matched = 1;

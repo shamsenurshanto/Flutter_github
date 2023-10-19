@@ -372,7 +372,7 @@ class _user_modelState extends State<user_model> {
                                                               scrollDirection: Axis.horizontal,
                                                               child: Wrap(
                                                                 children: <Widget>[
-                                                                  for (var i = 0; i < useController.userList[index].labels.length; i++)
+                                                                  for (var i = 0; i < useController.userList[index].labels!.length; i++)
                                                                     Card(
                                                                       color: Color.fromARGB(159, 231, 243, 243),
                                                                       child: Container(
@@ -383,7 +383,7 @@ class _user_modelState extends State<user_model> {
                                                                               padding: EdgeInsets.all(3),
                                                                               child: Text(
                                                                                 // for label showing
-                                                                                useController.userList[index].labels[i].name + " ",
+                                                                                useController.userList[index].labels[i].name! + " ",
                                                                                 style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
                                                                               ),
                                                                             )

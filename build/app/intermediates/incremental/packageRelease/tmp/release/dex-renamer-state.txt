@@ -1,4 +1,4 @@
-#Wed Oct 18 20:19:07 BDT 2023
+#Thu Oct 19 07:31:57 BDT 2023
 base.1=/home/shamsshahrul/Downloads/lenden-shams/build/app/intermediates/dex/release/minifyReleaseWithR8/classes2.dex
 path.1=classes2.dex
 base.0=/home/shamsshahrul/Downloads/lenden-shams/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
